@@ -10,7 +10,7 @@ var changeCountry = function(){
 		count = [2, 6, 9];
 	}
 	d3.selectAll("circle").data(count).attr("r", function(d){
-		return d * 5
+		return d * 5;
 	});
 };
 
